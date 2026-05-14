@@ -1,3 +1,5 @@
+#el code teta3 elmasala => nafs arkam el weights
+
 import math
 
 i1 = 0.05
@@ -24,7 +26,6 @@ net_h2 = (w3 * i1) + (w4 * i2) + b1
 out_h1 = math.tanh(net_h1)
 out_h2 = math.tanh(net_h2)
 
-# output layer
 net_o1 = (w5 * out_h1) + (w6 * out_h2) + b2
 net_o2 = (w7 * out_h1) + (w8 * out_h2) + b2
 
